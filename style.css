@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+.terminal {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 30%;
+  background-color: #111;
+  padding: 1rem;
+  border-right: 1px solid #444;
+}
+
+.sidebar p {
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+  color: #8aff80;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #fff;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem;
+}
+
+.ascii-title {
+  font-size: 1.5rem;
+  color: #ffaaff;
+}
+
